@@ -19,3 +19,5 @@ if (a <= 0 || h <= 0) {
 	}
 	console.log(getTriangleArea(a, h));
     console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+
+    alert('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
