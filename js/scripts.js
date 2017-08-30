@@ -14,23 +14,23 @@ function getTriangleArea(a, h) {
 
         /*Check if the result is positive */
         if (result > 0) {
-            alert('Number ' + value + ' is positive');
-            console.log('Number ' + value + ' is positive');
+            alert('Number ' + result + ' is positive');
+            console.log('Number ' + result + ' is positive');
 
             return;
         }
 
         /*Check if the result is negative */
         if (result < 0) {
-            alert('Number ' + value + ' is negative');
-            console.log('Number ' + value + ' is negative');
+            alert('Number ' + result + ' is negative');
+            console.log('Number ' + result + ' is negative');
 
             return;
         }
 
         //alert if function takes a result of 0
-        alert('Your result is ' + value);
-        console.log('Your result is ' + value);
+        alert('Your result is ' + result);
+        console.log('Your result is ' + result);
     }
 
     var name = prompt('Enter your name'); //writes in the appearing frame
